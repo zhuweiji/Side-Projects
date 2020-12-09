@@ -1,0 +1,53 @@
+# import turtle
+# import time
+# import random
+# tu = turtle.Turtle()
+#
+#
+# def choice(free_play = 0):
+#     user_choice = int(input("Enter your choice"))
+#     try:
+#         if user_choice == spin_wheel:
+#             spin_wheel()
+#         elif user_choice == choose_consonant():
+#             choose_consonant()
+#         elif user_choice == buy_vowel:
+#             buy_vowel(free_play)
+#     except ValueError:
+#         print('invalid input')
+#         choice()
+#
+#
+# def spin_wheel():
+#     if spin == number :
+#         while time < 10s:
+#             choice(free_play)
+#
+#     if spin == bankrupt:
+#         player_dollar = 0
+#
+#     if spin == lose_turn:
+#         pass
+#
+#     if spin == free_play:
+#         free_play = 1
+#         choice ? choose_consonant : buy_vowel
+#
+#
+#
+# def choose_consonant:
+#     if consonant in phrase:
+#         if not free_play: player_dollar += number * no of consonant
+#     phrase += consonant
+#     player + spin OR buy_vowel
+#     else:
+#         pass
+#
+# def buy_vowel(free_play)
+#     if not free_play: player -= ($250)
+#     if vowel in phrase
+#         buy_vowel or spin
+#     else
+#         pass
+#
+# def interface():

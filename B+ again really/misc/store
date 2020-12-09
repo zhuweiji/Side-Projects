@@ -1,0 +1,107 @@
+import turtle
+import colourlist
+tu = turtle.Turtle()
+tu.speed(15)
+RADIUS = 288
+
+
+def draw_wheel_outline():
+    tu.up()
+    tu.setpos(0, -RADIUS / 4)
+    tu.down()
+    tu.circle(RADIUS / 4)
+    tu.up()
+    tu.setpos(0, -RADIUS)
+    tu.down()
+    tu.circle(RADIUS)
+
+
+def draw_segment(colour,segment):
+    tu.pencolor(colour)
+    tu.circle(RADIUS, RADIUS/24)
+    heading = tu.heading()
+    pos = tu.pos()
+    home_angle = tu.towards(0, 0)
+    tu.setheading(home_angle)
+    tu.forward(3*RADIUS/4)
+    tu.setpos(pos)
+    tu.setheading(heading)
+
+
+draw_wheel_outline()
+draw_segment('silver',)
+
+turtle.done()
+
+import turtle
+import time
+import random
+tu = turtle.Turtle()
+
+
+def choice(free_play = 0):
+    user_choice = int(input("Enter your choice"))
+    try:
+        if user_choice == spin_wheel:
+            spin_wheel()
+        elif user_choice == choose_consonant():
+            choose_consonant()
+        elif user_choice == buy_vowel:
+            buy_vowel(free_play)
+    except ValueError:
+        print('invalid input')
+        choice()
+
+
+def spin_wheel():
+    if spin == number :
+        while time < 10s:
+            choice(free_play)
+
+    if spin == bankrupt:
+        player_dollar = 0
+
+    if spin == lose_turn:
+        pass
+
+    if spin == free_play:
+        free_play = 1
+        choice ? choose_consonant : buy_vowel
+
+
+
+def choose_consonant:
+    if consonant in phrase:
+        if not free_play: player_dollar += number * no of consonant
+    phrase += consonant
+    player + spin OR buy_vowel
+    else:
+        pass
+
+def buy_vowel(free_play)
+    if not free_play: player -= ($250)
+    if vowel in phrase
+        buy_vowel or spin
+    else
+        pass
+		
+red = (255,0,0)
+green = (0,255,0)
+blue = (0,0,255)
+yellow = (255,255,0)
+cyan = (0,255,255)
+magenta = (255,0,255)
+maroon = (128,0,0)
+olive = (128,128,0)
+lime = (0,128,0)
+purple = (128,0,128)
+teal = (0,128,128)
+navy = (0,0,128)
+silver = (192,192,192)
+gray = (128,128,128)
+black = (0,0,0)
+white = (255,255,255)
+colour_list = [red,green,blue,yellow,cyan,magenta,maroon,olive,lime,purple
+               ,teal,navy,silver,gray,black,white]
+        
+def interface():
